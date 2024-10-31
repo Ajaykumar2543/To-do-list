@@ -1,0 +1,59 @@
+html {
+  font-size: 15px;
+}
+
+body {
+  background: -webkit-gradient(
+      linear,
+      left top,
+      right bottom,
+      from(#8f02b3),
+      to(#4839d1)
+    )
+    fixed;
+}
+
+a {
+  color: rgb(92, 253, 253);
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+.card {
+  background-color: #54e0f8;
+}
+.card-body,
+ul {
+  background-color: rgb(84, 190, 252);
+  min-height: 0px;
+}
+.form-control {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+.btn {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.list-item {
+  color: rgb(97, 218, 218);
+}
+.list-group-item {
+  background-color: inherit;
+  border: none;
+}
+.under-list-item {
+  font-size: 0.9rem;
+}
+.under-list-item .list-group-item {
+  color: rgb(48, 192, 228);
+}
+
+.under-list-input input {
+  height: calc(1em + 0.75rem);
+}
+
+.line-throught {
+  text-decoration: line-through;
+}
